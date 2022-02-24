@@ -1,0 +1,14 @@
+.main-carousel {
+  height: 40rem;
+  width: 85%;
+  margin: auto;
+  background-color: aqua;
+  justify-items: center;
+}
+
+.main-carousel .slider-img {
+  height: 30rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+/*# sourceMappingURL=carousel.css.map */

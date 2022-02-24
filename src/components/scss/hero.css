@@ -1,0 +1,13 @@
+.hero-section {
+  height: 75rem;
+  background-image: url("../images/hero-image1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+  bottom: 15.1rem;
+  z-index: -1;
+}
+/*# sourceMappingURL=hero.css.map */

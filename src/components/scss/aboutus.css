@@ -1,0 +1,112 @@
+.aboutUs-section {
+  padding: 2rem;
+  width: 85%;
+  margin: auto;
+  background-color: #ebf5ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUs-section .aboutUs-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  margin: 1rem 0rem 10rem 0rem;
+  padding: 1rem;
+}
+
+.aboutUs-section .aboutUs-info .aboutUs-info-img {
+  height: 35rem;
+  width: 60rem;
+  border-radius: 3rem;
+}
+
+.aboutUs-section .aboutUs-info h5 {
+  margin: 7rem 0rem 2rem 0rem;
+  color: #0f5091;
+}
+
+.aboutUs-section .aboutUs-info p {
+  font-size: 2.1rem;
+  text-align: center;
+  padding: 0rem 2rem 0rem 2rem;
+  color: #444444;
+}
+
+.aboutUs-section div + h5 {
+  color: #0f5091;
+}
+
+.aboutUs-section .aboutUs-card-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0rem 10rem 0rem 10rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutUs-section .aboutUs-card-section .aboutUs-card {
+  margin: 2rem 2rem 2rem 2rem;
+  max-width: 60rem;
+  height: 50rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.aboutUs-section .aboutUs-card-section .aboutUs-card h5 {
+  margin: 1.5rem 0rem 1.5rem 0rem;
+  font-size: 3rem;
+  color: #198bff;
+}
+
+.aboutUs-section .aboutUs-card-section .aboutUs-card p {
+  padding: 0rem 3em 0rem 3rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #444444;
+}
+
+.aboutUs-section .aboutUs-card-section .aboutUs-card .card-img {
+  margin: 5rem 0rem 1rem 0rem;
+  height: 25rem;
+  width: 30rem;
+  border-radius: 3rem;
+}
+
+.aboutUs-card:hover {
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*# sourceMappingURL=aboutus.css.map */
